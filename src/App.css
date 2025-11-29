@@ -1,0 +1,147 @@
+/* ---------------- GLOBAL ---------------- */
+body {
+  background:#f7f8fa;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color:#333;
+}
+
+h2 {
+  font-weight:600;
+  letter-spacing:0.3px;
+}
+
+/* Center wrapper */
+.container {
+  margin-top:40px;
+}
+
+/* ---------------- FORM CARD ---------------- */
+form {
+  background: #fff;
+  padding: 35px 30px;
+  border-radius: 14px;
+  box-shadow:0 4px 25px rgba(0,0,0,0.06);
+  border:1px solid #ececec;
+}
+
+/* Input labels */
+.form-lable, .form-label {
+  font-weight:500;
+  color:#444;
+  margin-bottom:5px;
+}
+
+/* Inputs, selects, textarea */
+.form-control, 
+.form-select {
+  border-radius:10px;
+  padding:12px;
+  border:1px solid #d7d7d7;
+  background:#fafafa;
+  transition: all .2s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  background:#fff;
+  border-color:#4a90e2;
+  box-shadow:none;
+}
+
+/* Radio + Checkbox */
+.form-check-input {
+  cursor:pointer;
+  width:18px;
+  height:18px;
+}
+
+/* Submit Button */
+.btn-primary {
+  background:#4a90e2;
+  border:none;
+  padding:10px 20px;
+  font-size:16px;
+  border-radius:8px;
+  transition:.2s;
+}
+
+.btn-primary:hover {
+  background:#3b7ac5;
+}
+
+/* ---------------- TABLE CARD ---------------- */
+.table {
+  background:#fff;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 4px 25px rgba(0,0,0,0.06);
+  border:1px solid #ececec;
+}
+
+table thead {
+  background:#f0f4f8;
+}
+
+table th {
+  padding:14px;
+  font-weight:600;
+  font-size:14px;
+}
+
+table td {
+  padding:12px;
+  vertical-align:middle;
+  font-size:14px;
+}
+
+/* No data row */
+td[colspan='9'] {
+  padding:20px;
+  font-size:15px;
+  color:#777;
+}
+
+.address-cell {
+  white-space: pre-wrap;
+}
+
+
+/* Action buttons */
+.btn-danger {
+  background:#e74c3c;
+  border:none;
+  padding:6px 14px;
+  border-radius:6px;
+  font-size:13px;
+}
+
+.btn-danger:hover {
+  background:#cf3d2e;
+}
+
+.btn-warning {
+  background:#f39c12;
+  border:none;
+  padding:6px 14px;
+  border-radius:6px;
+  font-size:13px;
+}
+
+.btn-warning:hover {
+  background:#d68910;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+@media(max-width:768px) {
+  form {
+    padding:25px 20px;
+  }
+  table {
+    font-size:13px;
+  }
+  table th, table td {
+    padding:8px;
+  }
+}
